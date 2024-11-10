@@ -37,8 +37,8 @@ const SignupPage: React.FC = () => {
       const data = await res.json();
       if (res.ok) {
         setMessage("User registered successfully!");
-        setFormData({ username: '', email: '', password: '', confirmPassword: '' }); // Clear the form data
-        setTimeout(() => setMessage(''), 3000); // Clear the success message after 3 seconds
+        setFormData({ username: '', email: '', password: '', confirmPassword: '' }); 
+        setTimeout(() => setMessage(''), 3000); 
       } else {
         setMessage(data.error || "Failed to register user.");
       }

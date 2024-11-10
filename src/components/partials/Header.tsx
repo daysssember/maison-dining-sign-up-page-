@@ -27,7 +27,7 @@ const Header: React.FC = () => {
                 Contact Us
               </Link>
             </li>
-            {/* Sign Up Link */}
+            
             <li>
               <Link href="/signup" className="text-xl hover:text-red-700 transition duration-300">
                 Sign Up
